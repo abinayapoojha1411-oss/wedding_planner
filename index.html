@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eternal Moments Weddings | Luxury Wedding Planner Mumbai & Destination Weddings</title>
+  <meta name="description" content="Eternal Moments Weddings creates timeless, bespoke, and luxurious wedding celebrations across Mumbai, Udaipur, Goa, Jaipur, and global destinations. Your dream wedding, perfectly planned.">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Luxury Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-bar" aria-label="Announcement & Direct Contact">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-bar-link">
+          <i class="fa-solid fa-gem"></i> Bespoke Wedding Planning &amp; Luxury Destinations
+        </span>
+        <span class="top-bar-link">
+          <i class="fa-solid fa-location-dot"></i> Mumbai • Udaipur • Goa • Jaipur • International
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+919876543213" class="top-bar-link" id="topPhoneLink">
+          <i class="fa-solid fa-phone"></i> +91 98765 43213
+        </a>
+        <a href="mailto:hello@eternalmoments.in" class="top-bar-link" id="topEmailLink">
+          <i class="fa-regular fa-envelope"></i> hello@eternalmoments.in
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Luxury Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" id="headerBrandLogo" aria-label="Eternal Moments Weddings Home">
+        <div class="brand-emblem">
+          <i class="fa-solid fa-infinity"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Eternal Moments</span>
+          <span class="brand-tagline">WEDDINGS &amp; CELEBRATIONS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active" id="navLinkHome">Home</a></li>
+          <li><a href="services.html" class="nav-link" id="navLinkServices">Our Services</a></li>
+          <li><a href="portfolio.html" class="nav-link" id="navLinkPortfolio">Portfolio</a></li>
+          <li><a href="packages.html" class="nav-link" id="navLinkPackages">Packages</a></li>
+          <li><a href="about.html" class="nav-link" id="navLinkAbout">About Us</a></li>
+          <li><a href="inquire.html" class="nav-link" id="navLinkInquire">Inquire Now</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <a href="inquire.html" class="btn btn-primary btn-sm" id="navCtaBtn">
+          <span>Plan Your Wedding</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+    <div>
+      <div class="mobile-drawer-header">
+        <div class="brand-logo">
+          <div class="brand-emblem"><i class="fa-solid fa-infinity"></i></div>
+          <span class="brand-name" style="font-size: 1.25rem;">Eternal Moments</span>
+        </div>
+        <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close Navigation Menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="inquire.html">Inquire Now</a></li>
+      </ul>
+    </div>
+    <div class="mobile-drawer-footer">
+      <div class="mobile-contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+919876543213">+91 98765 43213</a>
+      </div>
+      <div class="mobile-contact-item">
+        <i class="fa-regular fa-envelope"></i>
+        <a href="mailto:hello@eternalmoments.in">hello@eternalmoments.in</a>
+      </div>
+      <a href="inquire.html" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+        Plan Your Wedding
+      </a>
+    </div>
+  </aside>
+
+  <main id="mainContent">
+
+    <!-- 1. Hero Section -->
+    <section class="hero" id="homeHero" style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=85');">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-sparkles text-gold"></i>
+          <span>Bespoke Luxury Wedding Architects</span>
+        </div>
+        <h1 class="hero-title">
+          Your Dream Wedding,<br>
+          <span>Perfectly Planned</span>
+        </h1>
+        <p class="hero-subtitle">
+          Creating Timeless Moments with Elegance &amp; Love. We orchestrate romantic, breathtaking celebrations tailored to your personal love story.
+        </p>
+        <div class="hero-buttons">
+          <a href="inquire.html" class="btn btn-gold" id="heroPlanBtn">
+            <span>Plan Your Wedding</span>
+            <i class="fa-solid fa-heart"></i>
+          </a>
+          <a href="portfolio.html" class="btn btn-outline-light" id="heroPortfolioBtn">
+            <span>View Our Work</span>
+            <i class="fa-solid fa-camera-retro"></i>
+          </a>
+        </div>
+
+        <!-- Hero Stats Ribbon -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">250+</div>
+            <div class="stat-label">Weddings Planned</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">14+</div>
+            <div class="stat-label">Destination Cities</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Happy Couples</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">8+</div>
+            <div class="stat-label">Years of Magic</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Introduction Section -->
+    <section class="section-padding bg-warm-white" id="introSection">
+      <div class="container">
+        <div class="intro-grid">
+          <div class="intro-images">
+            <img 
+              src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80" 
+              alt="Romantic wedding couple in royal palace courtyard" 
+              class="intro-img-main"
+            >
+            <img 
+              src="https://images.unsplash.com/photo-1519225429980-715cb0215aed?auto=format&fit=crop&w=600&q=80" 
+              alt="Floral arch and mandap wedding decor" 
+              class="intro-img-accent"
+            >
+            <div class="intro-experience-badge">
+              <div class="badge-years">8+</div>
+              <div class="badge-text">Years Of Pure<br>Artistry</div>
+            </div>
+          </div>
+
+          <div class="intro-content">
+            <span class="section-tagline">About Eternal Moments</span>
+            <h2 class="section-title">Where Everlasting Romance Meets Flawless Execution</h2>
+            <p style="color: var(--color-text-muted); font-size: 1.02rem; margin-bottom: 1.2rem;">
+              At Eternal Moments Weddings, we believe a wedding is not simply an event—it is the grand opening chapter of your shared destiny. From sunlit palatial courtyards in Rajasthan to intimate barefoot vows along Goa's golden coasts, we curate bespoke weddings steeped in heart, warmth, and peerless luxury.
+            </p>
+            <div class="intro-quote">
+              "We don’t just coordinate timelines; we safeguard your joy so you can savor every whisper, every tear of happiness, and every dance under the stars."
+            </div>
+
+            <div class="intro-features">
+              <div class="intro-feature-item">
+                <div class="intro-feature-icon">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <div class="intro-feature-text">
+                  <h4>Bespoke Design</h4>
+                  <p>Every floral element and color palette designed around your unique love story.</p>
+                </div>
+              </div>
+              <div class="intro-feature-item">
+                <div class="intro-feature-icon">
+                  <i class="fa-solid fa-champagne-glasses"></i>
+                </div>
+                <div class="intro-feature-text">
+                  <h4>Effortless Calm</h4>
+                  <p>White-glove concierge management ensuring zero stress for you and your family.</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+              <a href="about.html" class="btn btn-secondary" id="introLearnMoreBtn">
+                <span>Meet Our Team</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <i class="fa-solid fa-phone text-rose"></i>
+                <span style="font-size: 0.9rem; color: var(--color-burgundy); font-weight: 500;">Direct Consult: +91 98765 43213</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Services Preview Section (4 Elegant Cards) -->
+    <section class="section-padding bg-ivory" id="servicesPreviewSection">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tagline">Tailored Experiences</span>
+          <h2 class="section-title">Our Signature Wedding Services</h2>
+          <p class="section-subtitle">
+            From complete white-glove planning to day-of coordination, we bring artistry, precision, and heartfelt devotion to every celebration.
+          </p>
+        </div>
+
+        <div class="services-grid services-grid-4">
+          <!-- Card 1: Full Wedding Planning -->
+          <article class="service-card" id="serviceCard1">
+            <div class="service-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=700&q=80" 
+                alt="Full Wedding Planning Ballroom Setup"
+              >
+              <span class="service-card-badge">Comprehensive</span>
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-ring"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Full Wedding Planning</h3>
+              <p class="service-card-desc">
+                From your engagement toast to the final farewell brunch, we handle budget, vendors, styling, timelines, and 360° production.
+              </p>
+              <ul class="service-inclusions">
+                <li><i class="fa-solid fa-check"></i> Complete budget architecture</li>
+                <li><i class="fa-solid fa-check"></i> Handpicked elite vendors</li>
+                <li><i class="fa-solid fa-check"></i> 3D theme visualization</li>
+              </ul>
+              <div class="service-card-footer">
+                <div class="service-price-hint">
+                  Starting from
+                  <strong>₹3,50,000</strong>
+                </div>
+                <a href="inquire.html?service=full-planning" class="btn btn-secondary btn-sm" id="inquireService1">
+                  Inquire Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Décor & Styling -->
+          <article class="service-card" id="serviceCard2">
+            <div class="service-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=700&q=80" 
+                alt="Décor & Styling Floral Mandap Setup"
+              >
+              <span class="service-card-badge">Visual Artistry</span>
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-spa"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Décor &amp; Styling</h3>
+              <p class="service-card-desc">
+                Transformative spatial design, dramatic floral mandaps, mood lighting, and bespoke tablescapes that leave guests breathless.
+              </p>
+              <ul class="service-inclusions">
+                <li><i class="fa-solid fa-check"></i> Floral mandaps &amp; arches</li>
+                <li><i class="fa-solid fa-check"></i> Intelligent mood illumination</li>
+                <li><i class="fa-solid fa-check"></i> Custom bridal stages</li>
+              </ul>
+              <div class="service-card-footer">
+                <div class="service-price-hint">
+                  Starting from
+                  <strong>₹2,00,000</strong>
+                </div>
+                <a href="inquire.html?service=decor" class="btn btn-secondary btn-sm" id="inquireService2">
+                  Inquire Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Destination Weddings -->
+          <article class="service-card" id="serviceCard3">
+            <div class="service-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=80" 
+                alt="Destination Wedding Couple Sunset"
+              >
+              <span class="service-card-badge">Exclusive Travel</span>
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-plane-departure"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Destination Weddings</h3>
+              <p class="service-card-desc">
+                Palatial heritage forts in Rajasthan, romantic beaches in Goa, and exotic overseas paradises with seamless guest hospitality.
+              </p>
+              <ul class="service-inclusions">
+                <li><i class="fa-solid fa-check"></i> Luxury venue scouting</li>
+                <li><i class="fa-solid fa-check"></i> Flight &amp; airport transfers</li>
+                <li><i class="fa-solid fa-check"></i> Multi-day event hospitality</li>
+              </ul>
+              <div class="service-card-footer">
+                <div class="service-price-hint">
+                  Starting from
+                  <strong>₹5,00,000</strong>
+                </div>
+                <a href="inquire.html?service=destination" class="btn btn-secondary btn-sm" id="inquireService3">
+                  Inquire Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Wedding Day Coordination -->
+          <article class="service-card" id="serviceCard4">
+            <div class="service-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=700&q=80" 
+                alt="Wedding Day Coordination Holding Hands"
+              >
+              <span class="service-card-badge">Seamless Day-Of</span>
+              <div class="service-icon-wrapper">
+                <i class="fa-solid fa-clipboard-check"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Day-Of Coordination</h3>
+              <p class="service-card-desc">
+                You planned your dream day; now sit back and soak in every emotion while our expert team orchestrates backstage magic.
+              </p>
+              <ul class="service-inclusions">
+                <li><i class="fa-solid fa-check"></i> Master minute-by-minute rundown</li>
+                <li><i class="fa-solid fa-check"></i> Vendor management on-site</li>
+                <li><i class="fa-solid fa-check"></i> Dedicated bridal shadow</li>
+              </ul>
+              <div class="service-card-footer">
+                <div class="service-price-hint">
+                  Starting from
+                  <strong>₹1,50,000</strong>
+                </div>
+                <a href="inquire.html?service=coordination" class="btn btn-secondary btn-sm" id="inquireService4">
+                  Inquire Now
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center" style="margin-top: 3.5rem;">
+          <a href="services.html" class="btn btn-primary" id="viewAllServicesBtn">
+            <span>Explore All 6 Services</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Featured Weddings Section (3-4 Real Stories) -->
+    <section class="section-padding bg-warm-white" id="featuredWeddingsSection">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tagline">Real Love Stories</span>
+          <h2 class="section-title">Celebrations We’ve Brought to Life</h2>
+          <p class="section-subtitle">
+            Every couple has a distinct rhythm. Immerse yourself in these authentic wedding celebrations crafted with love, soul, and grandeur.
+          </p>
+        </div>
+
+        <div class="stories-grid">
+          <!-- Story 1 -->
+          <article class="story-card" id="story1">
+            <div class="story-image">
+              <img 
+                src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=900&q=80" 
+                alt="Aarav and Meera Palace Wedding Udaipur"
+              >
+              <div class="story-meta-pill">
+                <i class="fa-solid fa-location-dot"></i> The Oberoi Udaivilas, Udaipur
+              </div>
+            </div>
+            <div class="story-content">
+              <h3 class="story-couple">Aarav &amp; Meera</h3>
+              <div class="story-venue">
+                <i class="fa-regular fa-calendar-heart"></i> 3-Day Royal Heritage Extravaganza
+              </div>
+              <p class="story-excerpt">
+                A majestic royal celebration framed against Lake Pichola, featuring a floating lotus mandap, 2,000 candle lanterns, and an electrifying Sufi night under the desert moon.
+              </p>
+              <div class="story-tags">
+                <span class="story-tag">Palace Wedding</span>
+                <span class="story-tag">Floating Mandap</span>
+                <span class="story-tag">450 Guests</span>
+              </div>
+              <div>
+                <a href="portfolio.html?category=traditional" class="btn btn-secondary btn-sm" id="storyLink1">
+                  <span>View Photo Gallery</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Story 2 -->
+          <article class="story-card" id="story2">
+            <div class="story-image">
+              <img 
+                src="https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=900&q=80" 
+                alt="Kabir and Rhea Sunset Beach Wedding Goa"
+              >
+              <div class="story-meta-pill">
+                <i class="fa-solid fa-location-dot"></i> Taj Fort Aguada, Goa
+              </div>
+            </div>
+            <div class="story-content">
+              <h3 class="story-couple">Kabir &amp; Rhea</h3>
+              <div class="story-venue">
+                <i class="fa-regular fa-calendar-heart"></i> Sun-Drenched Coastal Chic Wedding
+              </div>
+              <p class="story-excerpt">
+                Bohemian elegance overlooking the Arabian Sea. Guests enjoyed custom coconut cocktails, barefoot sundowner vows beneath pampas grass arches, and a vibrant neon sangeet.
+              </p>
+              <div class="story-tags">
+                <span class="story-tag">Beachside Sunset</span>
+                <span class="story-tag">Boho Florals</span>
+                <span class="story-tag">280 Guests</span>
+              </div>
+              <div>
+                <a href="portfolio.html?category=destination" class="btn btn-secondary btn-sm" id="storyLink2">
+                  <span>View Photo Gallery</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Story 3 -->
+          <article class="story-card" id="story3">
+            <div class="story-image">
+              <img 
+                src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=900&q=80" 
+                alt="Dev and Ishani Vineyard Wedding Nashik"
+              >
+              <div class="story-meta-pill">
+                <i class="fa-solid fa-location-dot"></i> Sula Vineyards, Nashik
+              </div>
+            </div>
+            <div class="story-content">
+              <h3 class="story-couple">Dev &amp; Ishani</h3>
+              <div class="story-venue">
+                <i class="fa-regular fa-calendar-heart"></i> Intimate Vineyard Vows &amp; Wine Tasting
+              </div>
+              <p class="story-excerpt">
+                A warm, deeply personal affair celebrating family and timeless vows. A romantic long-table Tuscan dinner under fairy lights, paired with acoustic strings and emotional speeches.
+              </p>
+              <div class="story-tags">
+                <span class="story-tag">Intimate Gathering</span>
+                <span class="story-tag">Fairy-Light Canopy</span>
+                <span class="story-tag">120 Guests</span>
+              </div>
+              <div>
+                <a href="portfolio.html?category=intimate" class="btn btn-secondary btn-sm" id="storyLink3">
+                  <span>View Photo Gallery</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Story 4 -->
+          <article class="story-card" id="story4">
+            <div class="story-image">
+              <img 
+                src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=900&q=80" 
+                alt="Vikram and Tara Ballroom Heritage Taj Mumbai"
+              >
+              <div class="story-meta-pill">
+                <i class="fa-solid fa-location-dot"></i> The Taj Mahal Palace, Mumbai
+              </div>
+            </div>
+            <div class="story-content">
+              <h3 class="story-couple">Vikram &amp; Tara</h3>
+              <div class="story-venue">
+                <i class="fa-regular fa-calendar-heart"></i> Grand Heritage Ballroom Vows
+              </div>
+              <p class="story-excerpt">
+                Old-world Bombay charm elevated with crystal chandeliers, antique gold candelabras, classical Indian shehnai melodies, and a culinary feast crafted by Michelin-starred master chefs.
+              </p>
+              <div class="story-tags">
+                <span class="story-tag">Grand Heritage</span>
+                <span class="story-tag">Crystal Ballroom</span>
+                <span class="story-tag">600 Guests</span>
+              </div>
+              <div>
+                <a href="portfolio.html?category=grand" class="btn btn-secondary btn-sm" id="storyLink4">
+                  <span>View Photo Gallery</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Testimonials Slider From Real Couples -->
+    <section class="section-padding bg-ivory testimonials-section" id="testimonialsSection">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tagline">Words of Gratitude</span>
+          <h2 class="section-title">Kind Words from Our Couples</h2>
+          <p class="section-subtitle">
+            There is no greater honor than couples placing their most cherished day in our hands. Here is what they have to say.
+          </p>
+        </div>
+
+        <div class="testimonial-slider" id="testimonialSlider">
+          <div class="testimonial-track">
+            <!-- Slide 1 -->
+            <div class="testimonial-slide active">
+              <div class="testimonial-quote-icon">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <p class="testimonial-text">
+                "From our first coffee consultation with Ananya to the final bidai in Udaipur, Eternal Moments made our wedding feel like a royal fairytale. Not once did we or our parents feel anxious. Everything flowed seamlessly, with pure warmth and perfection!"
+              </p>
+              <div class="testimonial-couple">
+                <img 
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" 
+                  alt="Meera and Aarav" 
+                  class="testimonial-avatar"
+                >
+                <div class="testimonial-couple-info">
+                  <h4 class="testimonial-couple-name">Meera &amp; Aarav Singhania</h4>
+                  <div class="testimonial-wedding-details">Married at The Oberoi Udaivilas, Udaipur</div>
+                  <div class="testimonial-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-quote-icon">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <p class="testimonial-text">
+                "Planning a destination wedding across 3 continents seemed daunting until Eternal Moments stepped in. They coordinated 280 guests arriving from London, Dubai, and Mumbai without a single hiccup. Our Goa sunset pheras were sheer poetry."
+              </p>
+              <div class="testimonial-couple">
+                <img 
+                  src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=200&q=80" 
+                  alt="Natasha and Rohan" 
+                  class="testimonial-avatar"
+                >
+                <div class="testimonial-couple-info">
+                  <h4 class="testimonial-couple-name">Natasha &amp; Rohan Mehta</h4>
+                  <div class="testimonial-wedding-details">Married at Alila Diwa, Goa</div>
+                  <div class="testimonial-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-quote-icon">
+                <i class="fa-solid fa-quote-left"></i>
+              </div>
+              <p class="testimonial-text">
+                "The decor was beyond our wildest imagination! The floral mandap and candlelight styling took everyone's breath away. What touched us most was how attentive their on-ground team was. We could truly just be in love and celebrate."
+              </p>
+              <div class="testimonial-couple">
+                <img 
+                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80" 
+                  alt="Avantika and Siddharth" 
+                  class="testimonial-avatar"
+                >
+                <div class="testimonial-couple-info">
+                  <h4 class="testimonial-couple-name">Avantika &amp; Siddharth Rao</h4>
+                  <div class="testimonial-wedding-details">Married at Taj Falaknuma Palace, Hyderabad</div>
+                  <div class="testimonial-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="slider-controls">
+            <button class="slider-btn prev" id="testimonialPrevBtn" aria-label="Previous Testimonial">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <div class="slider-dots" id="testimonialDots"></div>
+            <button class="slider-btn next" id="testimonialNextBtn" aria-label="Next Testimonial">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Why Couples Choose Eternal Moments (4 Core Pillars) -->
+    <section class="section-padding bg-warm-white" id="whyChooseUsSection">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-tagline">The Eternal Promise</span>
+          <h2 class="section-title">Why Discerning Couples Choose Us</h2>
+          <p class="section-subtitle">
+            We hold ourselves to the gold standard of luxury hospitality, treating your wedding with the sanctity and artistic reverence it deserves.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <h3 class="value-title">Emotional Storytelling</h3>
+            <p class="value-desc">
+              We weave your personal milestones, memories, and cultural heritage into every decorative nuance and ceremony gesture.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+            <h3 class="value-title">Transparent Budgeting</h3>
+            <p class="value-desc">
+              Zero hidden commissions. Complete line-item transparency and seasoned negotiations that maximize value at every step.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-bell-concierge"></i></div>
+            <h3 class="value-title">White-Glove Concierge</h3>
+            <p class="value-desc">
+              Dedicated VIP guest coordinators, airport hospitality desks, and personalized hampers that treat every guest like royalty.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3 class="value-title">Flawless Day-Of Harmony</h3>
+            <p class="value-desc">
+              Robust contingency protocols, seasoned sound/light technical managers, and meticulous timekeeping behind the scenes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Packages Teaser Banner -->
+    <section class="section-padding-sm bg-ivory" id="packagesTeaserSection">
+      <div class="container">
+        <div style="background: var(--color-white); border-radius: var(--radius-lg); padding: 3rem; border: 1px solid var(--color-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem; box-shadow: var(--shadow-md);">
+          <div>
+            <span class="section-tagline" style="margin-bottom: 0.3rem;">Transparent Offerings</span>
+            <h3 style="font-size: 2rem; color: var(--color-burgundy); margin-bottom: 0.5rem;">Explore Our Curated Packages</h3>
+            <p style="color: var(--color-text-muted); font-size: 1rem; max-width: 600px;">
+              Whether planning an intimate soiree from ₹1,50,000 or an opulent multi-day destination experience from ₹7,00,000, we have an option crafted for your vision.
+            </p>
+          </div>
+          <div>
+            <a href="packages.html" class="btn btn-primary" id="homeViewPackagesBtn">
+              <span>View All Packages &amp; Pricing</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Final Emotional CTA Banner -->
+    <section class="cta-banner" id="homeCtaBanner" style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80');">
+      <div class="cta-banner-overlay"></div>
+      <div class="container cta-banner-content">
+        <span class="hero-badge">
+          <i class="fa-solid fa-heart text-gold"></i>
+          <span>Let's Begin Your Forever</span>
+        </span>
+        <h2 class="cta-banner-title">
+          Ready to Turn Your Wedding Dreams into Reality?
+        </h2>
+        <p class="cta-banner-text">
+          Dates for the upcoming wedding season are filling quickly. Schedule an intimate one-on-one consultation with our Creative Director today.
+        </p>
+        <div style="display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap;">
+          <a href="inquire.html" class="btn btn-gold" id="ctaBannerInquireBtn">
+            <span>Schedule a Consultation</span>
+            <i class="fa-regular fa-calendar-check"></i>
+          </a>
+          <a href="https://wa.me/919876543213?text=Hello%20Eternal%20Moments%20Weddings%2C%20I%20am%20interested%20in%20planning%20my%20wedding." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-direct" id="ctaBannerWaBtn">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Chat On WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer" id="siteFooter">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div>
+          <div class="brand-logo" style="margin-bottom: 0.5rem;">
+            <div class="brand-emblem"><i class="fa-solid fa-infinity"></i></div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #FFFFFF;">Eternal Moments</span>
+              <span class="brand-tagline">WEDDINGS &amp; CELEBRATIONS</span>
+            </div>
+          </div>
+          <p class="footer-brand-desc">
+            Bespoke wedding planning, luxury destination management, and breathtaking floral architecture. Crafting eternal love stories across Mumbai and international shores.
+          </p>
+          <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Pinterest">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/919876543213?text=Hello%20Eternal%20Moments%20Weddings%2C%20I%20am%20interested%20in%20planning%20my%20wedding." target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right text-gold"></i> Home</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right text-gold"></i> Our Services</a></li>
+            <li><a href="portfolio.html"><i class="fa-solid fa-chevron-right text-gold"></i> Real Weddings Portfolio</a></li>
+            <li><a href="packages.html"><i class="fa-solid fa-chevron-right text-gold"></i> Investment &amp; Packages</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right text-gold"></i> About Eternal Moments</a></li>
+            <li><a href="inquire.html"><i class="fa-solid fa-chevron-right text-gold"></i> Book a Consultation</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Services Links -->
+        <div>
+          <h4 class="footer-col-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#full-planning"><i class="fa-solid fa-chevron-right text-gold"></i> Full Wedding Planning</a></li>
+            <li><a href="services.html#partial-planning"><i class="fa-solid fa-chevron-right text-gold"></i> Partial Planning</a></li>
+            <li><a href="services.html#venue-selection"><i class="fa-solid fa-chevron-right text-gold"></i> Venue Selection</a></li>
+            <li><a href="services.html#decor-styling"><i class="fa-solid fa-chevron-right text-gold"></i> Décor &amp; Floral Styling</a></li>
+            <li><a href="services.html#destination-weddings"><i class="fa-solid fa-chevron-right text-gold"></i> Destination Weddings</a></li>
+            <li><a href="services.html#day-coordination"><i class="fa-solid fa-chevron-right text-gold"></i> Day-Of Coordination</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Newsletter -->
+        <div>
+          <h4 class="footer-col-title">Studio Location</h4>
+          <p style="font-size: 0.88rem; line-height: 1.6; margin-bottom: 1rem; color: rgba(248, 241, 233, 0.75);">
+            <i class="fa-solid fa-location-dot text-gold"></i>
+            Eternal Moments Weddings, 12th Floor, Prestige Towers, Bandra Kurla Complex, Mumbai
+          </p>
+          <p style="font-size: 0.88rem; margin-bottom: 0.6rem; color: rgba(248, 241, 233, 0.75);">
+            <i class="fa-solid fa-phone text-gold"></i>
+            <a href="tel:+919876543213" style="color: #FFFFFF; font-weight: 500;">+91 98765 43213</a>
+          </p>
+          <p style="font-size: 0.88rem; margin-bottom: 1.5rem; color: rgba(248, 241, 233, 0.75);">
+            <i class="fa-regular fa-envelope text-gold"></i>
+            <a href="mailto:hello@eternalmoments.in" style="color: #FFFFFF;">hello@eternalmoments.in</a>
+          </p>
+
+          <h5 style="color: var(--color-warm-white); font-size: 0.95rem; margin-bottom: 0.6rem;">Bridal Newsletter</h5>
+          <form class="footer-newsletter-form">
+            <input type="email" class="footer-newsletter-input" placeholder="Your email for wedding inspiration..." required>
+            <button type="submit" class="footer-newsletter-btn" aria-label="Subscribe to newsletter">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Eternal Moments Weddings. All Rights Reserved. Crafted with passion &amp; elegance.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="inquire.html">Consultation Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button (Opens official WA URL with prefilled message) -->
+  <a 
+    href="https://wa.me/919876543213?text=Hello%20Eternal%20Moments%20Weddings%2C%20I%20am%20interested%20in%20planning%20my%20wedding." 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="floating-whatsapp" 
+    id="floatingWhatsAppBtn" 
+    aria-label="Chat with Wedding Specialist on WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with our Wedding Specialists</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Interactive Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

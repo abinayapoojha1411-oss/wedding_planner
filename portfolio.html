@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Portfolio &amp; Real Celebrations | Eternal Moments Weddings</title>
+  <meta name="description" content="Explore our gallery of luxury weddings across India and international destinations. Filter through Traditional, Destination, Intimate, and Grand celebrations.">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Luxury Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="top-bar" aria-label="Announcement & Direct Contact">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-bar-link">
+          <i class="fa-solid fa-gem"></i> Bespoke Wedding Planning &amp; Luxury Destinations
+        </span>
+        <span class="top-bar-link">
+          <i class="fa-solid fa-location-dot"></i> Mumbai • Udaipur • Goa • Jaipur • International
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+919876543213" class="top-bar-link">
+          <i class="fa-solid fa-phone"></i> +91 98765 43213
+        </a>
+        <a href="mailto:hello@eternalmoments.in" class="top-bar-link">
+          <i class="fa-regular fa-envelope"></i> hello@eternalmoments.in
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Luxury Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Eternal Moments Weddings Home">
+        <div class="brand-emblem"><i class="fa-solid fa-infinity"></i></div>
+        <div class="brand-text">
+          <span class="brand-name">Eternal Moments</span>
+          <span class="brand-tagline">WEDDINGS &amp; CELEBRATIONS</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Our Services</a></li>
+          <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="inquire.html" class="nav-link">Inquire Now</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="inquire.html" class="btn btn-primary btn-sm">
+          <span>Plan Your Wedding</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation">
+    <div>
+      <div class="mobile-drawer-header">
+        <div class="brand-logo">
+          <div class="brand-emblem"><i class="fa-solid fa-infinity"></i></div>
+          <span class="brand-name" style="font-size: 1.25rem;">Eternal Moments</span>
+        </div>
+        <button class="mobile-close-btn" aria-label="Close Navigation Menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="inquire.html">Inquire Now</a></li>
+      </ul>
+    </div>
+    <div class="mobile-drawer-footer">
+      <div class="mobile-contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+919876543213">+91 98765 43213</a>
+      </div>
+      <div class="mobile-contact-item">
+        <i class="fa-regular fa-envelope"></i>
+        <a href="mailto:hello@eternalmoments.in">hello@eternalmoments.in</a>
+      </div>
+      <a href="inquire.html" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">
+        Plan Your Wedding
+      </a>
+    </div>
+  </aside>
+
+  <main id="mainContent">
+
+    <!-- Page Hero Banner -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="hero-badge">
+          <i class="fa-solid fa-camera-retro text-gold"></i>
+          <span>Visual Masterpieces</span>
+        </span>
+        <h1 class="page-hero-title">Our Wedding Portfolio</h1>
+        <p class="page-hero-subtitle">
+          An intimate look at our real couples, breathtaking venues, and bespoke floral architecture. Click any photograph to view in full-screen gallery mode.
+        </p>
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i>
+          <span>Portfolio</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filterable Gallery Section -->
+    <section class="section-padding bg-warm-white" id="portfolioSection">
+      <div class="container">
+        
+        <!-- Filter Tabs -->
+        <div class="gallery-filters" id="galleryFilters">
+          <button class="filter-btn active" data-filter="all">All Celebrations (16)</button>
+          <button class="filter-btn" data-filter="traditional">Traditional &amp; Royal</button>
+          <button class="filter-btn" data-filter="destination">Destination Escapes</button>
+          <button class="filter-btn" data-filter="intimate">Intimate &amp; Vineyard</button>
+          <button class="filter-btn" data-filter="grand">Grand Ballrooms</button>
+        </div>
+
+        <!-- 16 Real Curated High-Res Images Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+
+          <!-- 1. Traditional -->
+          <div class="gallery-item" data-category="traditional" data-couple="Aarav &amp; Meera" data-location="The Oberoi Udaivilas, Udaipur" data-story="A royal heritage union adorned with gold lotus blooms and sacred Vedic pheras at twilight.">
+            <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=900&q=80" alt="Aarav & Meera Palace Wedding Udaipur">
+            <span class="gallery-item-category">Traditional</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Aarav &amp; Meera</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> The Oberoi Udaivilas, Udaipur</p>
+            </div>
+          </div>
+
+          <!-- 2. Destination -->
+          <div class="gallery-item" data-category="destination" data-couple="Kabir &amp; Rhea" data-location="Taj Fort Aguada, Goa" data-story="Golden hour vows beside the roaring waves of the Arabian Sea with pampas grass and coastal botanicals.">
+            <img src="https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=900&q=80" alt="Kabir & Rhea Beach Wedding Goa">
+            <span class="gallery-item-category">Destination</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Kabir &amp; Rhea</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Taj Fort Aguada, Goa</p>
+            </div>
+          </div>
+
+          <!-- 3. Intimate -->
+          <div class="gallery-item" data-category="intimate" data-couple="Dev &amp; Ishani" data-location="Sula Vineyards, Nashik" data-story="An intimate 120-guest celebration beneath a glowing canopy of warm fairy lights and olive garlands.">
+            <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=900&q=80" alt="Dev & Ishani Vineyard Wedding">
+            <span class="gallery-item-category">Intimate</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Dev &amp; Ishani</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Sula Vineyards, Nashik</p>
+            </div>
+          </div>
+
+          <!-- 4. Grand -->
+          <div class="gallery-item" data-category="grand" data-couple="Vikram &amp; Tara" data-location="The Taj Mahal Palace, Mumbai" data-story="Opulent crystal chandeliers, dramatic gold arches, and classical Indian symphonies in a historic ballroom.">
+            <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=900&q=80" alt="Vikram & Tara Ballroom Taj Mumbai">
+            <span class="gallery-item-category">Grand</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Vikram &amp; Tara</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> The Taj Mahal Palace, Mumbai</p>
+            </div>
+          </div>
+
+          <!-- 5. Traditional -->
+          <div class="gallery-item" data-category="traditional" data-couple="Rohan &amp; Ananya" data-location="Jai Mahal Palace, Jaipur" data-story="A vibrant Rajputana courtyard transformed with crimson marigolds and authentic antique brass lamps.">
+            <img src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?auto=format&fit=crop&w=900&q=80" alt="Rohan & Ananya Jai Mahal Palace Jaipur">
+            <span class="gallery-item-category">Traditional</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Rohan &amp; Ananya</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Jai Mahal Palace, Jaipur</p>
+            </div>
+          </div>
+
+          <!-- 6. Destination -->
+          <div class="gallery-item" data-category="destination" data-couple="Arjun &amp; Sanjana" data-location="Alila Diwa, South Goa" data-story="A 3-day tropical extravaganza featuring sunset cocktails, sea-breeze pheras, and midnight fire dancers.">
+            <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80" alt="Arjun & Sanjana Destination Sunset Wedding">
+            <span class="gallery-item-category">Destination</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Arjun &amp; Sanjana</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Alila Diwa, South Goa</p>
+            </div>
+          </div>
+
+          <!-- 7. Intimate -->
+          <div class="gallery-item" data-category="intimate" data-couple="Nikhil &amp; Trisha" data-location="Private Estate, Lonavala Hills" data-story="Cozy hillside sanctuary surrounded by lush monsoon mist, white orchids, and acoustic live violin.">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=900&q=80" alt="Nikhil & Trisha Estate Lonavala">
+            <span class="gallery-item-category">Intimate</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Nikhil &amp; Trisha</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Private Estate, Lonavala</p>
+            </div>
+          </div>
+
+          <!-- 8. Grand -->
+          <div class="gallery-item" data-category="grand" data-couple="Aditya &amp; Radhika" data-location="JW Marriott Sahar, Mumbai" data-story="A monumental 800-guest Bollywood Sangeet stage with state-of-the-art kinetic light installations.">
+            <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=80" alt="Aditya & Radhika Grand Reception">
+            <span class="gallery-item-category">Grand</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Aditya &amp; Radhika</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> JW Marriott Sahar, Mumbai</p>
+            </div>
+          </div>
+
+          <!-- 9. Traditional -->
+          <div class="gallery-item" data-category="traditional" data-couple="Harsh &amp; Pooja" data-location="Taj Falaknuma Palace, Hyderabad" data-story="Ascending the 101-seat royal dining hall under historic Nizami chandeliers and fragrant tuberose garlands.">
+            <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=900&q=80" alt="Harsh & Pooja Taj Falaknuma Palace">
+            <span class="gallery-item-category">Traditional</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Harsh &amp; Pooja</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Taj Falaknuma, Hyderabad</p>
+            </div>
+          </div>
+
+          <!-- 10. Destination -->
+          <div class="gallery-item" data-category="destination" data-couple="Karan &amp; Diya" data-location="JW Marriott Mussoorie Walnut Grove" data-story="Ethereal mountain vows overlooking the doon valley, framed by white hydrangeas and pine cones.">
+            <img src="https://images.unsplash.com/photo-1519225429980-715cb0215aed?auto=format&fit=crop&w=900&q=80" alt="Karan & Diya Mountain Destination Wedding">
+            <span class="gallery-item-category">Destination</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Karan &amp; Diya</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Mussoorie Walnut Grove</p>
+            </div>
+          </div>
+
+          <!-- 11. Intimate -->
+          <div class="gallery-item" data-category="intimate" data-couple="Sameer &amp; Alisha" data-location="The Glasshouse, Alibaug" data-story="An airy glass pavilion bathed in natural light, pastel roses, and a 6-course personalized chef's table.">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Sameer & Alisha Glasshouse Alibaug">
+            <span class="gallery-item-category">Intimate</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Sameer &amp; Alisha</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> The Glasshouse, Alibaug</p>
+            </div>
+          </div>
+
+          <!-- 12. Grand -->
+          <div class="gallery-item" data-category="grand" data-couple="Rishi &amp; Simran" data-location="Grand Hyatt, Mumbai" data-story="A grand crystal floral ceiling suspended above 700 guests, with customized gold filigree centerpieces.">
+            <img src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=900&q=80" alt="Rishi & Simran Grand Hyatt Mumbai">
+            <span class="gallery-item-category">Grand</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Rishi &amp; Simran</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Grand Hyatt, Mumbai</p>
+            </div>
+          </div>
+
+          <!-- 13. Traditional -->
+          <div class="gallery-item" data-category="traditional" data-couple="Varun &amp; Kritika" data-location="Umaid Bhawan Palace, Jodhpur" data-story="The quintessential Jodhpur royal celebration with a regal elephant procession and vintage car baraat.">
+            <img src="https://images.unsplash.com/photo-1609151162377-794fa68b02f6?auto=format&fit=crop&w=900&q=80" alt="Varun & Kritika Umaid Bhawan Palace">
+            <span class="gallery-item-category">Traditional</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Varun &amp; Kritika</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Umaid Bhawan, Jodhpur</p>
+            </div>
+          </div>
+
+          <!-- 14. Destination -->
+          <div class="gallery-item" data-category="destination" data-couple="Manav &amp; Natasha" data-location="W Goa, Vagator" data-story="Chic rock-cliff vows with sea spray, customized neon photo installations, and sunset champagne towers.">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80" alt="Manav & Natasha W Goa">
+            <span class="gallery-item-category">Destination</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Manav &amp; Natasha</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> W Goa, Vagator</p>
+            </div>
+          </div>
+
+          <!-- 15. Intimate -->
+          <div class="gallery-item" data-category="intimate" data-couple="Dhruv &amp; Shruti" data-location="Heritage Bungalow, Khandala" data-story="A nostalgic family blessing nestled within old banyan trees, vintage brass lamps, and home-cooked delicacies.">
+            <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=900&q=80" alt="Dhruv & Shruti Khandala Bungalow">
+            <span class="gallery-item-category">Intimate</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Dhruv &amp; Shruti</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> Heritage Estate, Khandala</p>
+            </div>
+          </div>
+
+          <!-- 16. Grand -->
+          <div class="gallery-item" data-category="grand" data-couple="Sanjay &amp; Tanvi" data-location="The St. Regis, Mumbai" data-story="High-fashion multi-tiered cake cutting, bespoke cocktail bar, and an electric celebrity DJ afterparty.">
+            <img src="https://images.unsplash.com/photo-1524824267900-2fa9cbf7a506?auto=format&fit=crop&w=900&q=80" alt="Sanjay & Tanvi St Regis Mumbai">
+            <span class="gallery-item-category">Grand</span>
+            <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+            <div class="gallery-overlay">
+              <h4 class="gallery-item-couple">Sanjay &amp; Tanvi</h4>
+              <p class="gallery-item-location"><i class="fa-solid fa-location-dot"></i> The St. Regis, Mumbai</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Working Lightbox Modal Markup -->
+    <div class="lightbox-modal" id="portfolioLightbox" aria-modal="true" role="dialog" aria-label="Wedding Photo Lightbox">
+      <div class="lightbox-container">
+        <button class="lightbox-close" aria-label="Close Lightbox">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <button class="lightbox-nav-btn lightbox-prev" aria-label="Previous Photo">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="lightbox-image-wrap">
+          <img src="" alt="Wedding celebration" class="lightbox-img">
+        </div>
+
+        <button class="lightbox-nav-btn lightbox-next" aria-label="Next Photo">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="lightbox-caption-wrap">
+          <h3 class="lightbox-caption-title">Couple Names</h3>
+          <p class="lightbox-caption-desc">Wedding Story &amp; Location</p>
+          <div class="lightbox-counter">1 of 16</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Emotional CTA Banner -->
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1519225429980-715cb0215aed?auto=format&fit=crop&w=1920&q=80');">
+      <div class="cta-banner-overlay"></div>
+      <div class="container cta-banner-content">
+        <h2 class="cta-banner-title">Love What You See? Let's Design Yours.</h2>
+        <p class="cta-banner-text">
+          Every photo represents a story brought to life with precision and care. Let us craft a celebration that will be remembered for generations.
+        </p>
+        <div style="display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap;">
+          <a href="inquire.html" class="btn btn-gold">
+            <span>Inquire for Your Date</span>
+            <i class="fa-regular fa-calendar-check"></i>
+          </a>
+          <a href="packages.html" class="btn btn-outline-light">
+            <span>View Packages</span>
+            <i class="fa-solid fa-tags"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-logo" style="margin-bottom: 0.5rem;">
+            <div class="brand-emblem"><i class="fa-solid fa-infinity"></i></div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #FFFFFF;">Eternal Moments</span>
+              <span class="brand-tagline">WEDDINGS &amp; CELEBRATIONS</span>
+            </div>
+          </div>
+          <p class="footer-brand-desc">
+            Bespoke wedding planning, luxury destination management, and breathtaking floral architecture. Crafting eternal love stories across Mumbai and international shores.
+          </p>
+          <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Pinterest">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/919876543213?text=Hello%20Eternal%20Moments%20Weddings%2C%20I%20am%20interested%20in%20planning%20my%20wedding." target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right text-gold"></i> Home</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right text-gold"></i> Our Services</a></li>
+            <li><a href="portfolio.html"><i class="fa-solid fa-chevron-right text-gold"></i> Real Weddings Portfolio</a></li>
+            <li><a href="packages.html"><i class="fa-solid fa-chevron-right text-gold"></i> Investment &amp; Packages</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right text-gold"></i> About Eternal Moments</a></li>
+            <li><a href="inquire.html"><i class="fa-solid fa-chevron-right text-gold"></i> Book a Consultation</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#full-planning"><i class="fa-solid fa-chevron-right text-gold"></i> Full Wedding Planning</a></li>
+            <li><a href="services.html#partial-planning"><i class="fa-solid fa-chevron-right text-gold"></i> Partial Planning</a></li>
+            <li><a href="services.html#venue-selection"><i class="fa-solid fa-chevron-right text-gold"></i> Venue Selection</a></li>
+            <li><a href="services.html#decor-styling"><i class="fa-solid fa-chevron-right text-gold"></i> Décor &amp; Floral Styling</a></li>
+            <li><a href="services.html#destination-weddings"><i class="fa-solid fa-chevron-right text-gold"></i> Destination Weddings</a></li>
+            <li><a href="services.html#day-coordination"><i class="fa-solid fa-chevron-right text-gold"></i> Day-Of Coordination</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Studio Location</h4>
+          <p style="font-size: 0.88rem; line-height: 1.6; margin-bottom: 1rem; color: rgba(248, 241, 233, 0.75);">
+            <i class="fa-solid fa-location-dot text-gold"></i>
+            Eternal Moments Weddings, 12th Floor, Prestige Towers, Bandra Kurla Complex, Mumbai
+          </p>
+          <p style="font-size: 0.88rem; margin-bottom: 0.6rem; color: rgba(248, 241, 233, 0.75);">
+            <i class="fa-solid fa-phone text-gold"></i>
+            <a href="tel:+919876543213" style="color: #FFFFFF; font-weight: 500;">+91 98765 43213</a>
+          </p>
+          <p style="font-size: 0.88rem; margin-bottom: 1.5rem; color: rgba(248, 241, 233, 0.75);">
+            <i class="fa-regular fa-envelope text-gold"></i>
+            <a href="mailto:hello@eternalmoments.in" style="color: #FFFFFF;">hello@eternalmoments.in</a>
+          </p>
+          <h5 style="color: var(--color-warm-white); font-size: 0.95rem; margin-bottom: 0.6rem;">Bridal Newsletter</h5>
+          <form class="footer-newsletter-form">
+            <input type="email" class="footer-newsletter-input" placeholder="Your email for wedding inspiration..." required>
+            <button type="submit" class="footer-newsletter-btn" aria-label="Subscribe to newsletter">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Eternal Moments Weddings. All Rights Reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="inquire.html">Consultation Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a 
+    href="https://wa.me/919876543213?text=Hello%20Eternal%20Moments%20Weddings%2C%20I%20am%20interested%20in%20planning%20my%20wedding." 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="floating-whatsapp" 
+    aria-label="Chat with Wedding Specialist on WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with our Wedding Specialists</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
